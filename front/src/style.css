@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(250, 245, 245);
+}
+
+.message-panel {
+  height: calc(100vh - 150px);
+}
+
+.message_info {
+  border-right: 2px solid gray;
+
+  min-width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list-group-item {
+  padding: 15px;
+}
+
+.message_info small {
+  display: block;
+  text-align: center;
+}
+
+.message_info_author {
+  font-weight: bold;
+}
+
+.message_content {
+  padding-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
